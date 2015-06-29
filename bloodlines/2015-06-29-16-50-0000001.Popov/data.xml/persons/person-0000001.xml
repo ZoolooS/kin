@@ -1,2 +1,21 @@
 <?xml version="1.1" encoding="UTF-8" ?>
 <!--<!DOCTYPE SYSTEM "structure.dtd">-->
+
+<gender></gender><!-- актуальный пол -->
+<gender_origin></gender_origin><!-- оригинальный пол -->
+
+<firstname></firstname><!-- актуальное имя -->
+<lastname></lastname><!-- актуальная фамилия -->
+<patronymic></patronymic><!-- отчество -->
+<middlename></middlename><!-- среднее имя. может быть несколько -->
+<maidenname></maidenname><!-- девичья фамилия -->
+<lastname_origin></lastname_origin><!-- оригинальная фамилия -->
+<lastname_ex></lastname_ex><!-- предыдущая фамилия. может быть несколько -->
+<name_origin></name_origin><!-- оригинальное имя -->
+<name_ex></name_ex><!-- может быть несколько -->
+
+<suffix></suffix><!-- мл., ст., III и т.п. может быть несколько -->
+<title></title><!-- титул, звание и т.п. может быть несколько -->
+<call></call><!-- Обращение типа мистер, миссис и т.п. -->
+
+<died></died><!-- просто признак, возможно со ссылкой на соответствующее событие -->
