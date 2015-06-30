@@ -1,0 +1,256 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!--<!DOCTYPE SYSTEM "structure.dtd">-->
+
+<!-- Рождение -->
+<birth>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+        <hour></hour>
+        <minute></minute>
+        <second></second>
+    </date>
+</birth>
+<!-- Смерть -->
+<death>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+        <hour></hour>
+        <minute></minute>
+        <second></second>
+    </date>
+</death>
+
+<!-- Заключение брака. Может быть несколько -->
+<marriage>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+        <hour></hour>
+        <minute></minute>
+        <second></second>
+    </date>
+</marriage>
+<!-- Расторжение брака. Может быть несколько -->
+<divorce>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+        <hour></hour>
+        <minute></minute>
+        <second></second>
+    </date>
+    <reason></reason>
+</divorce>
+
+<!-- Период обучения в детском саду. Может быть несколько -->
+<kindergarten>
+    <date_start>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_start>
+    <date_end>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_end>
+</kindergarten>
+<!-- Период получения среднего образования. Может быть несколько -->
+<school>
+    <date_start>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_start>
+    <date_end>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_end>
+</school>
+<!-- Период получения среднего проф. образования (колледж, училище, техникум). Может быть несколько -->
+<college>
+    <date_start>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_start>
+    <date_end>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_end>
+</college>
+<!-- Получение высшего образования. Может быть несколько -->
+<university>
+    <date_start>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_start>
+    <date_end>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_end>
+</university>
+<!-- Академический отпуск. Может быть несколько -->
+<academic_leave>
+    <date_start>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_start>
+    <date_end>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_end>
+    <reason></reason>
+</academic_leave>
+<!-- Получение/защита ученой степени, профессии. Может быть несколько -->
+<degree>
+   <title></title>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date>
+</degree>
+<!-- Лишение ученой степени. Может быть несколько -->
+<degree_loss>
+   <title></title>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date>
+    <reason></reason>
+</degree_loss>
+
+<!-- Смена пола -->
+<gen_switch>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date>
+    <reason></reason>
+</gen_switch>
+
+<!-- Болезнь. Может быть несколько -->
+<disease>
+    <date_start>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_start>
+    <date_end>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_end>
+    <diagnosis></diagnosis>
+</disease>
+
+<!-- Получение звания, например, воинского. Может быть несколько -->
+<rank>
+   <title></title>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date>
+    <reason></reason>
+</rank>
+<!-- Лишение звания, например, воинского. Может быть несколько -->
+<rank_loss>
+   <title></title>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date>
+    <reason></reason>
+</rank_loss>
+
+<!-- Пропал без вести -->
+<missing>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+        <hour></hour>
+        <minute></minute>
+        <second></second>
+    </date>
+    <reason></reason>
+</missing>
+<!-- Найден после пропажи -->
+<found>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+        <hour></hour>
+        <minute></minute>
+        <second></second>
+    </date>
+    <reason></reason>
+</found>
+<!-- Судимость. Может быть несколько -->
+<jail>
+    <date_start>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_start>
+    <date_end>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_end>
+    <reason></reason>
+    <title></title>
+</jail>
+<!-- Переезд. Может быть несколько -->
+<move>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+        <hour></hour>
+        <minute></minute>
+        <second></second>
+    </date>
+    <reason></reason>
+</move>
+<!-- Волонтёрская деятельность. Может быть несколько -->
+<volunteering>
+   <title></title>
+    <date_start>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_start>
+    <date_end>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date_end>
+    <reason></reason>
+</volunteering>
+
+<!-- Астрономическое событие (затмение, полнолуние, комета, ..). Может быть несколько -->
+
+<!-- Природный катаклизм  (цунами, торнадо, потоп, извержение вулкана, ..). Может быть несколько -->
+
+<!-- Служба в Вооруженных Силах. Может быть несколько -->
+
+<!-- Работа, гражданская служба, фриланс. Может быть несколько -->
