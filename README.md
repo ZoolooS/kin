@@ -1,5 +1,5 @@
-# kin
-gen. tree
+# kin & things
+gen. tree and other stuff
 
 Пилим систему учета родственников, связей, событий и т.п. информации.
 
